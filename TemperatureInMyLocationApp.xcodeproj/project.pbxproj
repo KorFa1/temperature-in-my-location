@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDBE241D29C09EA30060B975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE241C29C09EA30060B975 /* AppDelegate.swift */; };
+		EDBE241F29C09EA30060B975 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE241E29C09EA30060B975 /* SceneDelegate.swift */; };
+		EDBE242129C09EA30060B975 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE242029C09EA30060B975 /* MainViewController.swift */; };
+		EDBE242629C09EA40060B975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBE242529C09EA40060B975 /* Assets.xcassets */; };
+		EDBE243529C0A0160060B975 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE243429C0A0160060B975 /* NetworkManager.swift */; };
+		EDBE243729C0A0250060B975 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE243629C0A0250060B975 /* Weather.swift */; };
+		EDBE243D29C0A0500060B975 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EDBE243C29C0A0500060B975 /* SnapKit */; };
+		EDBE243F29C0A0600060B975 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBE243E29C0A0600060B975 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDBE241929C09EA30060B975 /* TemperatureInMyLocationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureInMyLocationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBE241C29C09EA30060B975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDBE241E29C09EA30060B975 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDBE242029C09EA30060B975 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EDBE242529C09EA40060B975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDBE242A29C09EA40060B975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBE243429C0A0160060B975 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EDBE243629C0A0250060B975 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		EDBE243E29C0A0600060B975 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDBE241629C09EA30060B975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBE243D29C0A0500060B975 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDBE241029C09EA30060B975 = {
+			isa = PBXGroup;
+			children = (
+				EDBE241B29C09EA30060B975 /* TemperatureInMyLocationApp */,
+				EDBE241A29C09EA30060B975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDBE241A29C09EA30060B975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE241929C09EA30060B975 /* TemperatureInMyLocationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDBE241B29C09EA30060B975 /* TemperatureInMyLocationApp */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE243029C09F230060B975 /* Models */,
+				EDBE243129C09F2F0060B975 /* Views */,
+				EDBE243229C09F340060B975 /* Controllers */,
+				EDBE243329C09F400060B975 /* Others */,
+				EDBE242A29C09EA40060B975 /* Info.plist */,
+			);
+			path = TemperatureInMyLocationApp;
+			sourceTree = "<group>";
+		};
+		EDBE243029C09F230060B975 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE243429C0A0160060B975 /* NetworkManager.swift */,
+				EDBE243629C0A0250060B975 /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDBE243129C09F2F0060B975 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE243E29C0A0600060B975 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDBE243229C09F340060B975 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE242029C09EA30060B975 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EDBE243329C09F400060B975 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE241E29C09EA30060B975 /* SceneDelegate.swift */,
+				EDBE241C29C09EA30060B975 /* AppDelegate.swift */,
+				EDBE242529C09EA40060B975 /* Assets.xcassets */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDBE241829C09EA30060B975 /* TemperatureInMyLocationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBE242D29C09EA40060B975 /* Build configuration list for PBXNativeTarget "TemperatureInMyLocationApp" */;
+			buildPhases = (
+				EDBE241529C09EA30060B975 /* Sources */,
+				EDBE241629C09EA30060B975 /* Frameworks */,
+				EDBE241729C09EA30060B975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureInMyLocationApp;
+			packageProductDependencies = (
+				EDBE243C29C0A0500060B975 /* SnapKit */,
+			);
+			productName = TemperatureInMyLocationApp;
+			productReference = EDBE241929C09EA30060B975 /* TemperatureInMyLocationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDBE241129C09EA30060B975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EDBE241829C09EA30060B975 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EDBE241429C09EA30060B975 /* Build configuration list for PBXProject "TemperatureInMyLocationApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDBE241029C09EA30060B975;
+			packageReferences = (
+				EDBE243B29C0A0500060B975 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = EDBE241A29C09EA30060B975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDBE241829C09EA30060B975 /* TemperatureInMyLocationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDBE241729C09EA30060B975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBE242629C09EA40060B975 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDBE241529C09EA30060B975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBE243529C0A0160060B975 /* NetworkManager.swift in Sources */,
+				EDBE243F29C0A0600060B975 /* MainView.swift in Sources */,
+				EDBE242129C09EA30060B975 /* MainViewController.swift in Sources */,
+				EDBE241D29C09EA30060B975 /* AppDelegate.swift in Sources */,
+				EDBE241F29C09EA30060B975 /* SceneDelegate.swift in Sources */,
+				EDBE243729C0A0250060B975 /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDBE242B29C09EA40060B975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDBE242C29C09EA40060B975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDBE242E29C09EA40060B975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3LDJGM5SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TemperatureInMyLocationApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Temperature;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Geolocation is needed to display the temperature correctly";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.KorFa1.TemperatureInMyLocationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDBE242F29C09EA40060B975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3LDJGM5SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TemperatureInMyLocationApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Temperature;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Geolocation is needed to display the temperature correctly";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.KorFa1.TemperatureInMyLocationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDBE241429C09EA30060B975 /* Build configuration list for PBXProject "TemperatureInMyLocationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBE242B29C09EA40060B975 /* Debug */,
+				EDBE242C29C09EA40060B975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBE242D29C09EA40060B975 /* Build configuration list for PBXNativeTarget "TemperatureInMyLocationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBE242E29C09EA40060B975 /* Debug */,
+				EDBE242F29C09EA40060B975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDBE243B29C0A0500060B975 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDBE243C29C0A0500060B975 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDBE243B29C0A0500060B975 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EDBE241129C09EA30060B975 /* Project object */;
+}
