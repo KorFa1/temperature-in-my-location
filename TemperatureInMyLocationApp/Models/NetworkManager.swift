@@ -16,7 +16,7 @@ class NetworkManager {
     
     static let shared = NetworkManager()
     
-    private var keyAPI = "45a27235-6770-43ea-8851-7d5ba0f4a21b"
+    private let keyAPI = "45a27235-6770-43ea-8851-7d5ba0f4a21b"
     
     weak var delegate: NetworkManagerDelegate?
     
